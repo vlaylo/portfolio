@@ -1,0 +1,40 @@
+.BioPage {
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    z-index: -9999
+}
+
+.Bio {
+    position: absolute;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Biko', sans-serif;
+    right: 250px;
+    z-index: 0;
+    top: 40px;
+    color: rgb(71, 71, 71);
+}
+
+.Vince {
+    background: -webkit-linear-gradient( darkblue, indigo, purple, darkred, red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+.About {
+    position: absolute;
+    font-size: 1.5em;
+    font-weight: normal;
+    font-family: "Coves", sans-serif;
+    right: 150px;
+    top: 225px;
+    width: 650px;
+    line-height: 40px;
+    z-index: 0;
+}
+
+
+
+

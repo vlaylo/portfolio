@@ -1,0 +1,61 @@
+.Burger {
+    cursor: pointer;
+    position: absolute;
+    width: 50px;
+    z-index: 30;
+    left: 40px
+}
+
+
+.BurgerButton {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: none;
+    border: solid rgb(121, 121, 121) 2px;
+    cursor: pointer;
+    transition: .4s;
+    position: fixed;
+    top: 50vh;
+    left: 40px;
+}
+
+.Burger:hover > .BurgerButton {
+    width: 14px;
+    height: 14px;
+    transition: 0.3s;
+    transform: rotate(135deg);
+    background: black;
+    border-radius: 0%;;
+    border: solid 2px black;
+    box-sizing: content-box;
+}
+
+.Burger:active > .BurgerButton {
+    background-color: white;
+    transition: 100ms;
+    
+}
+
+.Hello {
+    position: absolute;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    top: 50vh;
+    font-size: 0.8em;
+    letter-spacing: 5px;
+    left: -50px;
+    transition: 400ms;
+    z-index: 100;
+}
+
+.Burger:hover > .Hello {
+    color: darkgray;
+    transition: 200ms;
+}
+
+@media (max-width: 350px) {
+    .BurgerButton {
+        display: none;
+    }
+}

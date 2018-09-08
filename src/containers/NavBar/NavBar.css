@@ -1,0 +1,30 @@
+.NavBar {
+    width: 95vw;
+    height: 0px; 
+    position: relative;
+}
+
+.outlined {
+    font-family: 'Oswald', sans-serif;
+}
+
+.ButtonStyle {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr 1fr 1fr 2.5fr;
+}
+
+.Vince {
+    position: absolute;
+    font-weight: bold;
+    font-size: .9em;
+    left: 0px;
+    top: -20px;
+}
+
+.Contact {
+    position: absolute;
+    font-weight: normal;
+    font-size: .9em;
+    right: 0;
+    top: -20px;
+}

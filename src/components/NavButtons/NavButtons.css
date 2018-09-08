@@ -1,0 +1,31 @@
+.flat {
+    height: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+    letter-spacing: 2px;
+    }
+
+.flat {
+        cursor: pointer;
+        transition: 0.2s;
+        font-weight: 400;
+        margin: 0 10px 0 20px;
+    }
+
+
+.flat:hover {
+        font-size: 1.2em;
+        transition: 0.2s;
+        transform: translate3d(0px, 5px, 20px);
+    }
+
+.flat:active {
+    color: lightgray;
+    transition: 0.2s;
+}
+
+@media (max-width: 350px) {
+.flat {
+    opacity: 0;
+}
+}

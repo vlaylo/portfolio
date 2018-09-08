@@ -1,0 +1,11 @@
+.NavPage {
+    background: white;
+    width: 100vw;
+    height: 600px;
+    position: absolute;
+    top: 50vh;
+    border-radius: 0px;
+    z-index: 25;
+
+}
+

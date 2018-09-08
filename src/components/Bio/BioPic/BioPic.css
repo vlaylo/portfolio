@@ -1,0 +1,36 @@
+img.BioPic {
+    position: absolute;
+    height: 70%;
+    width: auto;
+    left: 150px;
+    top: 175px;
+    transition: 300ms;
+    filter: blur(25px);
+    z-index: 0;
+    /*box-shadow: 2px 0px 5px darkgray;*/
+}
+
+.BioPic:hover {
+    border-radius: 50%;
+    filter: none;
+}
+
+.BioPicAfter {
+    position: absolute;
+    height: 70%;
+    width: auto;
+    left: 150px;
+    top: 175px;
+    transition: 300ms;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.BioPicAfter:hover {
+    transform-origin: center;
+    transform: scale(1.1, 1.1);
+}
+
+.BioPicScrolling {
+    z-index: 0;
+}

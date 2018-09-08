@@ -1,0 +1,13 @@
+.NavPageButtons {
+    width: 200px;
+    padding: 20px 0;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s
+}
+
+.NavPageButtons:hover {
+    font-size: 1.2em;
+    transition: 0.2s;
+    background-color: lightgray;
+}
