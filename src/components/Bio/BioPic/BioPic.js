@@ -8,7 +8,6 @@ export default class BioPic extends Component {
 
   state = {
     hovered: true,
-    scrolling: false
   }
 
   mouseOverHandler = () => {

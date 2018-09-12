@@ -17,7 +17,7 @@
     transition: .4s;
     position: fixed;
     top: 50vh;
-    left: 40px;
+    left: 60px;
 }
 
 .Burger:hover > .BurgerButton {
@@ -38,6 +38,7 @@
 }
 
 .Hello {
+    box-sizing: border-box;
     position: absolute;
     text-transform: uppercase;
     transform: rotate(-90deg);

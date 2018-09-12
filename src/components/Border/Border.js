@@ -4,6 +4,7 @@ import classes from './Border.css'
 import NavBar from '../../containers/NavBar/NavBar';
 import MenuButton from '../../components/MenuButton/MenuButton';
 import NavPage from '../../containers/NavPage/NavPage';
+import Auxe from '../../hoc/Auxe';
 
 
 
@@ -24,10 +25,11 @@ export default class Border extends Component {
   });
 }
   render() {
-    return (
+    return (      
       <div className={classes.Border}>
-        <NavBar/>
+      <NavBar/>
       </div>
+
     )
   }
 }

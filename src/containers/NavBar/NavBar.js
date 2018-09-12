@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 import classes from './NavBar.css';
 import Button from '@material-ui/core/Button';
 import Auxe from '../../hoc/Auxe';
-import Fade from 'react-reveal/Fade'
+import Fade from 'react-reveal/Fade';
+
 
 export default class NavBar extends Component {
 
@@ -18,10 +19,6 @@ export default class NavBar extends Component {
         });
     }*/
 
-/*<NavButtons>home</NavButtons> 
-                            <NavButtons><span>portfolio</span></NavButtons>
-                            <NavButtons><span>contact</span></NavButtons>*/
-
 
     render() {
         return (
@@ -33,7 +30,8 @@ export default class NavBar extends Component {
                             <div className={classes.Contact}>CONTACT ME</div>
                         </div>
                     </div>
-                    </Fade>
+
+            </Fade>
             </Auxe>
         )
     }}

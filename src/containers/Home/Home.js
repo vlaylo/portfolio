@@ -6,7 +6,8 @@ import MenuButton from '../../components/MenuButton/MenuButton';
 import Bio from '../../components/Bio/Bio';
 import Border from '../../components/Border/Border'
 import BioPic from '../../components/Bio/BioPic/BioPic'
-import BurgerButton from '../../components/BurgerButton/BurgerButton'
+import NavBar from '../NavBar/NavBar';
+import {CSSTransition} from 'react-transition-group'
 
 const particleOpt = {
   particles: {
@@ -85,7 +86,6 @@ export default class Home extends Component {
     return (
       <div className={classes.WholeHome}>
        <div className ={classes.Menu}>
-            <MenuButton clicked={this.navPageOpenHandler}/>
           </div>
           <NavPage
             clicked={this.navPageCloseHandler}
@@ -102,3 +102,6 @@ export default class Home extends Component {
     )
   }
 }
+
+//<MenuButton clicked={this.navPageOpenHandler}/>
+

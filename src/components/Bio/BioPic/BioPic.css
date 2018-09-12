@@ -3,7 +3,7 @@ img.BioPic {
     height: 70%;
     width: auto;
     left: 150px;
-    top: 175px;
+    top: 150px;
     transition: 300ms;
     filter: blur(25px);
     z-index: 0;

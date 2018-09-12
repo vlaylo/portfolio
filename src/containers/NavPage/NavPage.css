@@ -1,11 +1,40 @@
 .NavPage {
+    box-sizing: border-box;
+    position: fixed;
     background: white;
+    border: red 50px solid;
     width: 100vw;
-    height: 600px;
-    position: absolute;
-    top: 50vh;
-    border-radius: 0px;
-    z-index: 25;
+    height: 100vh;
+    top: -100%;
+    opacity: 0;
+    z-index: 1;
+    transition: all 400ms;
+    pointer-events: none;
+}
 
+.NavPageOpen {
+    position: fixed;
+    box-sizing: border-box;
+    border: white 300px solid;
+    background: linear-gradient(blue, darkblue, indigo, purple, darkred);
+    width: 100vw;
+    height: 100vh;
+    transition: all 400ms ;
+    pointer-events: all;
+    z-index: 1;
+    opacity: 1;
+} 
+
+.NavPageAfter {
+    box-sizing: border-box;
+    position: fixed;
+    background: white;
+    border: white 50px solid;
+    width: 99vw;
+    height: 100vh;
+    z-index: 1;
+    transition: all 400ms;
+    pointer-events: none;
+    opacity: 0;
 }
 

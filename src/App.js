@@ -13,6 +13,7 @@ export default class App extends Component {
   render() {
     return (
     <div classname={classes.App}>
+          <NavBar/>
          <Home/>
    </div>
     )

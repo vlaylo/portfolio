@@ -1,16 +1,11 @@
 .NavBar {
-    width: 95vw;
+    width: 100vw;
     height: 0px; 
-    position: relative;
+    z-index: 20;
 }
 
 .outlined {
-    font-family: 'Oswald', sans-serif;
-}
-
-.ButtonStyle {
-    display: grid;
-    grid-template-columns: 2.5fr 1fr 1fr 1fr 2.5fr;
+    font-family: 'Coves', sans-serif;
 }
 
 .Vince {
@@ -25,6 +20,6 @@
     position: absolute;
     font-weight: normal;
     font-size: .9em;
-    right: 0;
+    right: 0px;
     top: -20px;
 }
