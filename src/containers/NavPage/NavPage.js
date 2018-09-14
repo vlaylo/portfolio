@@ -11,7 +11,7 @@ let className = classes.NavPage
 
 export default class NavPage extends Component {
   state = {
-    navPageOpen: false
+    navPageOpen: true
   }
   
   /*openNavPage = () => {

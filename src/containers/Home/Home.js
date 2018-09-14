@@ -2,12 +2,10 @@ import React, { Component } from 'react';
 import classes from './Home.css'
 import NavPage from '../NavPage/NavPage';
 import Particles from 'react-particles-js';
-import MenuButton from '../../components/MenuButton/MenuButton';
 import Bio from '../../components/Bio/Bio';
 import Border from '../../components/Border/Border'
 import BioPic from '../../components/Bio/BioPic/BioPic'
-import NavBar from '../NavBar/NavBar';
-import {CSSTransition} from 'react-transition-group'
+import Logos from '../../components/Bio/Logos/Logos';
 
 const particleOpt = {
   particles: {
@@ -91,11 +89,11 @@ export default class Home extends Component {
             clicked={this.navPageCloseHandler}
             show={this.state.navPage}/>
         <div className={classes.Home}>
+        <Logos/>
+
         <Border/>
         <BioPic/>
         <Bio/>
-        <Bio/>
-        <Particles params={particleOpt}/>
         </div>
         </div>
       

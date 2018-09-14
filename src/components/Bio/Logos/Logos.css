@@ -1,0 +1,20 @@
+.Logos {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 700px;
+    left: 45vw;
+    justify-items: center;
+    grid-column-gap: 0px;
+    top: 500px;
+
+
+}
+.Logo {
+    width: 75%;
+    height: auto;
+    z-index: 2;
+    margin: 0;
+    filter: drop-shadow(2px 2px 2px darkgray);
+
+}

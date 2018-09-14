@@ -23,15 +23,16 @@ export default class NavBar extends Component {
     render() {
         return (
             <Auxe>
-            <Fade top>
+            
                     <div className={classes.NavBar}>
                         <div className={classes.ButtonStyle}>
-                            <div className={classes.Vince}>VINCE | JOSHUA | LAYLO</div> 
-                            <div className={classes.Contact}>CONTACT ME</div>
+                        <Fade top>
+                            <div className={classes.Vince}>VINCE | JOSHUA | LAYLO</div></Fade>
+                        <Fade top>
+                            <div className={classes.Contact}>FRONT-END DESIGNER</div></Fade>
                         </div>
                     </div>
 
-            </Fade>
             </Auxe>
         )
     }}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Pic from './biopic.jpg';
 import classes from './BioPic.css';
+import Fade from 'react-reveal/Fade';
 
 let className = classes.BioPic;
 
@@ -20,10 +21,12 @@ export default class BioPic extends Component {
 
   render() {
     return (
-        <img 
-          onMouseOver={this.mouseOverHandler} 
-          className={className} 
-          src={Pic}></img>
+<Fade delay={1000}>
+          <img 
+            onMouseOver={this.mouseOverHandler} 
+            className={className} 
+            src={Pic}></img>
+</Fade>
       
    )
   }

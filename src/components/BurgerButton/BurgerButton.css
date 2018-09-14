@@ -17,7 +17,7 @@
     transition: .4s;
     position: fixed;
     top: 50vh;
-    left: 60px;
+    left: 40px;
 }
 
 .Burger:hover > .BurgerButton {
